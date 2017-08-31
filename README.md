@@ -2,6 +2,7 @@
  
 #LHPlatform：其他SDK管理类的抽象类，也就是父类，提供与SDK接头的方法
  
+
 #LHPlatformDelegate：app事件通知，通过代理的方式
 
 @protocol PlatformDelegate <NSObject>
@@ -24,6 +25,7 @@
 
 @end
  
+
 # LHPlatformMgr
 @interface LHPlatformMgr : NSObject
 
